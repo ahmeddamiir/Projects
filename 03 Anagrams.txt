@@ -1,0 +1,28 @@
+Anagrams
+
+The program will load a database of words from a file.
+Can be txt file where for instance each word in on separate line:
+
+a
+abandon
+ability
+able
+about
+above
+abroad
+absence
+
+and so on (you can find vocabularies like this online)
+
+The user can then type a word and the program will:
+Show if the word is in the vocabulary.
+Show all anagrams for the given word.
+
+
+
+
+BONUS:
+1. Turn the program into a game, where random word is given and user
+	has to try to write as many anagrams as they can.
+2. Calculate which is the biggest anagram "group" - which combination
+	of letter produces the most correct words.

@@ -1,0 +1,27 @@
+Quizzer
+
+The program will load questions and answers from a file.
+It can be txt file, for example like this:
+
+Who was the first president of the United States?; George Washington; Abraham Lincoln; Edgar G. Hoover; Thomas Jefferson
+How many moons does Jupiter have?; 79; 64; 91; 17
+
+In this example, the correct answer is stored as the first possible answer in the file.
+
+The user can they start a game where a random question is displayed and the possible answers are displayed
+as well (randomly). The user can then choose (use ABCD, or 1234) an answer.
+
+The program will tell if they user was right or wrong, if they were wrong, correct answer is diplayed.
+
+Then next question is asked. User can stop the game anytime (for instance by using E or 5 as the answer,
+or by typing some special keyword like "stop" or "exit".
+
+
+
+
+BONUS:
+1. Make it, so that within the same "session" the player cannot get the same question multiple
+	times.
+2. Calculate some advanced statistics (number of correct answers throughout the game, or percentage)
+3. Implement "hints" - user can ask for hint and two wrong options will be eliminated (similar to the rules
+	of "Who wants to be a millionaire")

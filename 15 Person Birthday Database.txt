@@ -1,0 +1,23 @@
+Person Database
+
+The program will load data about people (name, date of birth) from a file.
+The file can be txt file that looks for example like this:
+
+John Smith; 1987; 3; 25
+Peter Johnson; 1994; 7; 12
+Jenny King; 2002; 12; 17
+
+The user can then:
+1. diplay the whole database
+2. search for a person by name, if they exists their information is shown
+3. find the oldest / youngest person
+4. display the upcoming birthays (for example three people who will have birthday
+	in the nearest future, or display all birthays for the rest of the month)
+	
+	
+
+
+BONUS:
+1. allow adding / deleting people from the database, after any changes are made,
+	the file is saved / overwritten with the new data
+2. calculate advanced statistics (average age, which month are the most birthdays etc.)

@@ -1,0 +1,40 @@
+Math Practicer
+
+The program will allow user to practice elementary level math.
+(addition and substraction of two-digit numbers, multiplication of one digit numbers)
+
+When the user starts the "game". A random math question will be generated, for example:
+
+15 + 49 = ?
+
+or
+
+77 - 21 = ?
+
+or
+
+5 * 8 = ?
+
+(make sure the substraction doesnt go into negative)
+And the user can then write their answer.
+
+The program will show if the asnwer is correct, and if not, the correct answer is shown.
+
+The user can choose to stop the game at anytime, for example by typing special keyword like
+"stop" or "exit". Overall results (how many correct answers / percentage) is shown and user is given
+option to store their practice into an output file. The output file can look for example like this:
+
+15 + 49 = 64 (correct)
+77 - 21 = 55 (wrong, should be 56)
+5 * 8 = 40 (correct)
+
+After the practice is finished, the user can choose to start another game, or exit the program.
+
+
+
+
+BONUS:
+1. Make it, so that its possible to choose the difficulty (adding / substraction of three-digit numbers,
+	multiplying two-digit numbers etc.)
+2. Make it, so that user can decide to rerun a previous test - instead of questions being randomly generated,
+	they questions will be copied from the output file of previous test

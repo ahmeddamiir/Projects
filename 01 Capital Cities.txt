@@ -1,0 +1,35 @@
+Capital City Guessing Game
+
+The program will load pairs of "Country Name" and "Capital City Name" from a file.
+
+Txt file can be used - for example like this:
+
+Czech Republic; Prague
+Slovakia; Bratislava
+France; Paris
+Finland; Helsinki
+Russia; Moscow
+
+The user can then start one of two types of games:
+1. The program will show the country and user has to write the city.
+2. The program will show the city and user has to write the country.
+
+The questions will be selected from the available data randomly.
+After answering the question, the program will inform the user if
+it was correct. In case the answer is wrong, the program will show correct answer.
+
+The game can be stopped at any given time - for instance by using a keyword like "stop"
+as the answer. After the game is stopped, the program will show total statistics
+(number of correct and wrong asnwers - or percentage of success) and return to the
+main menu.
+
+
+
+
+BONUS:
+1. Add continent for each data entry, and allow user to only play the game on chosen continent.
+2. Add third game option, where the two game modes alternate randomly (program can give you
+	country or city)
+3. Make it, so that within the same "session" the player cannot get the same question multiple
+	times.
+

@@ -1,0 +1,25 @@
+Car Filter Database
+
+The program will load data about cars (owner, model, manufacturer, year, color) from a file.
+The file can be txt file that looks for example like this:
+
+John Smith; Fiesta; Ford; 2000; green
+Peter Johnson; Megane; Renault; 1997; blue
+
+The user can then:
+1. diplay the whole database
+2. search for a person, if they have a car, information about the car is shown
+3. filter cars by parameters 
+	(for example show only cars of given color, show only cars from given manufacturer)
+4. filter cars by age
+	(for example show only cars that are 5 years old or newer)
+5. calculate some statistics
+	(most favourite model, average age, most favourite colour etc.)
+	
+	
+
+
+BONUS:
+1. allow adding / deleting cars from the database, after any changes are made,
+	the file is saved / overwritten with the new data
+2. add new parameters (price, miles per galon) and allow sorting based on these parameters

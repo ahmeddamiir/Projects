@@ -1,0 +1,27 @@
+Fort Boyard Game
+
+The program will load data with the passwords and clues from a file.
+It can be txt file for example like this:
+
+water; fish; electricity; pool; ice; salt; fresh
+bridge; river; stone; walk; rope; cross
+leg; foot; break; table; mushroom
+
+Where the firt word if the password and the other words are the clues.
+
+The player can then start a guessing game, where a clue will be displayed
+and the player can guess the password. If the guess is wrong, then the next
+clue will be displayed. The player wins if they guess correctly and they loose
+if they run out of clues (guess wrong after the last clue).
+
+If they loose, the correct password answer is shown.
+
+After each game, the player can choose to start another game or exit the program.
+
+
+
+
+BONUS:
+1. Make it, so that within the same "session" the player cannot get the same game multiple
+	times.
+2. Make it, so that the clues are given in random order.

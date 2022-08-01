@@ -1,0 +1,22 @@
+Calendar
+
+The program will load calendar with event from a file, the file can be txt
+file that looks for example like this:
+
+2021; 3; 5; 1230; Dentist
+2021; 3; 5; 1830; Dinner with parents
+2021; 3; 7; 1000; Submit weekly report
+2021; 3; 28; 1200; Pay electricity bill
+
+The user can then choose to:
+1. Display nearest future events (today and tomorrow)
+2. Show schedule for the current week (even past events)
+3. Display future events until end of the month
+
+
+
+
+BONUS:
+1. Allow the data file to be unsorted (entries can be randomly mixed)
+2. Allow user to create new event, add it to the calendar and save it
+	(overwrite the original file, so that it also has the new event)

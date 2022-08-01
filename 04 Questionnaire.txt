@@ -1,0 +1,41 @@
+Questionnaire
+
+The program will have two functionalities: 
+1. filling out questionnares
+2. finding aswers of a person
+
+The user can choose to fill a new questionnare. Questions will be displayed
+and the user can answer them, for instance:
+
+What if your name?
+How old are you?
+What is your gender?
+What country are you from?
+What is your favourite color?
+
+and so on. The questionnaire should have at least 10 questions.
+
+After the user fills in the questionares, new file will be generated based on
+their name and the answers will be stored in that file, for example:
+
+John Smith.txt
+
+John Smith
+25
+male
+USA
+green
+
+The second functionality will allow user to type a person name, and if a file with
+answers for that person exists, the program will show what they answered.
+
+
+
+
+BONUS:
+1. Instead of making a separate file for each questionnaire fill, store everything in
+	a single "master" file.
+2. Create option to calculate statistics - for instance average age of all the people who
+	filled out the questionnaire.
+3. Create checks for some of the answers - for example allow user to write only colors that exist
+	by having a list of possible allowed answers. Same can be done for genders for example.

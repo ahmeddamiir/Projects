@@ -1,0 +1,27 @@
+Student Attendance
+
+The program will load data about students and their attendance from a file.
+It can be txt file that looks for example like this:
+
+Johny Smith; 1; 0; 1; 0; 1; 0
+Lucy Jenkins; 1; 0; 0; 1; 1; 1
+Peter Johnson; 1; 1; 1; 1; 0; 1
+
+the data can be 1/0, or true/false, or yes/no, or X/O - whichever you prefer
+
+The user can then do one of the following:
+1. view the whole attendance (every student and attendance)
+2. enter student name and only attendance for that student is shown
+3. find the best / worst student (based on how many times they were missing)
+4. enter a limit for absences, and names of students were not missing more than the limit are shown
+5. calculate percentage of absence for the whole class across all weeks
+6. calculate percentage of absence on a weekly basis
+
+
+
+
+BONUS:
+1. Allow adding new weeks. If the uses decides to add new week, the program will display names
+	of students and the user enters if that person is present or missing. Afterwards, the new data is
+	stored (overwrite the original file so that it also has the data for the new week)
+2. Give user option to sort students based on their attendance

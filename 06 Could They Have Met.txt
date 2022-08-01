@@ -1,0 +1,34 @@
+Could They Have Met
+
+The program loads data about well known historical figures from a file.
+It can be txt file that looks like this for example:
+
+Albert Einstein; 1879; 1955
+Winston Churchill; 1874; 1965
+Fyodor Dostoevsky; 1821; 1881
+Charlie Chaplin; 1889; 1977
+
+The user can then start a game, where two random names are displayed and the user has
+to guess if the two people couldve theoretically have met or not (if they was a point
+in time, when they were both alive).
+
+After they answer, the program will tell if the asnwer was correct or not and it will
+show the years where the two people have lived.
+
+The game can be stopped at any time (each time user has to guess, there are three options:
+yes, no, exit).
+
+After the game is stopped, the program will show user their score - how many questions they had
+in total, how many correct answers they had, or what was their success rate percentage.
+
+The program then returns to the main menu, where user can either start another game, or exit the program.
+
+
+
+
+BONUS:
+1. Make so that it program avoid pairings that are too obvious that they didnt live around the same time,
+	for example, pairing like: Julius Caesar / Queen Victoria should be avoided, because they lived 1800 years
+	apart.
+2. Make it, so that within the same "session" the player cannot get the same question multiple
+	times.

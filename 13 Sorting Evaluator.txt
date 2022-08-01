@@ -1,0 +1,19 @@
+Sorting Evaluator
+
+The program will load number from a file. There will be several (at least three)
+sorting algorithms implemented (quick sort, bubble sort, select sort, merge sort etc).
+
+The program will allow user to select which sorting algorithm they want to use for sorting,
+sort the numbers and display the sorted results.
+
+The program will also allow user to run evaluation - where every algorithm will be used on the same data
+and the program will measure how quickly was each calculation done, and then display which algorithm was
+the best (fastest).
+
+
+
+
+BONUS:
+1. Create option to perform exhaustive analysis - where the data will be randomly shuffled given
+	number of times (for example 100 times) and the performance of sorting will be measured across
+	all the different random inputs (calculate average speed)

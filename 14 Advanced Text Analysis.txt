@@ -1,0 +1,26 @@
+Advanced Text Analysis
+
+The program will load a text from a file. (you can download a book in txt book for testing purposes)
+
+The user will have the option to do the following:
+1. Display basic info (how many words, how many letter, how many sentences)
+2. Display frequency analysis of letters - what is the percentage of each letter in the text
+	(for example: a: 5,7%, b: 2,2%, c: 2,7% etc)
+3. Display text based histogram for the frequency
+
+The histogram can look for example like this:
+
+a 5,7%   XXXXXXXXXXX
+b 2,2%   XXXX 
+c 2,7%   XXXXX
+d 3,1%   XXXXXX
+e 4,6%   XXXXXXXXX
+
+and so on
+
+
+
+
+BONUS:
+1. add more statistics (most used words, longest word, longest sentence)
+2. allow user to load two different files and show statistics in comparison
